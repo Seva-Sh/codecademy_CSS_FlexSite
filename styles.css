@@ -1,0 +1,169 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+  /* text-align: center; */
+}
+
+h2, h4 {
+  margin: 0;
+}
+
+/* Header */
+
+header {
+  height: 69px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+}
+
+header img {
+  height: 50px;
+  margin-left: 10px;
+
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  padding: 5px;
+}
+
+a:link, a:hover, a:active, a:visited {
+  color: seashell;
+}
+
+/* Main  */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Mission */
+
+.mission {
+  background-image: url(img/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1200px 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 700px;
+  margin-bottom: 30px;
+}
+
+.mission div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  height: 100px;
+  width: 1200px;
+}
+
+.mission h2, .mission h4 {
+  margin: 0;
+  padding: 5px;
+}
+
+/* Tea of the Month  */
+
+.totm {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  align-items: center;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.images div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.images h4 {
+  margin-top: 10px;
+}
+
+.totm h2 {
+  margin: 15px 0;
+}
+
+.totm h4 {
+  margin-bottom: 15px;
+}
+
+.totm img {
+  width: 300px;
+  height: 200px;
+}
+
+/* Locations */
+
+.locations {
+  background-image: url(img/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: 1200px 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 1200px;
+}
+
+.locations h2 {
+  margin-bottom: 15px;
+}
+
+.locationOptions {
+  display: flex;
+  justify-content: center;
+}
+
+.locationOptions div {
+  width: 300px;
+  background-color: black;
+  margin: 0 20px;
+  text-align: center;
+}
+
+.locationOptions p {
+  margin: 25px 0;
+}
+
+/* Contact */
+
+.contact {
+  text-align: center;
+  height: 200px;
+  margin-top: 15px;
+}
+
+/* Footer  */
+
+footer {
+  margin-left: 20px;
+}
